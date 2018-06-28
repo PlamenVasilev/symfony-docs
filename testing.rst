@@ -179,7 +179,7 @@ As an example, a test could look like this::
         <phpunit>
             <php>
                 <!-- the value is the FQCN of the application kernel -->
-                <env name="KERNEL_CLASS" value="App\Kernel" />
+                <env name="KERNEL_CLASS" value="AppKernel" />
             </php>
             <!-- ... -->
         </phpunit>
